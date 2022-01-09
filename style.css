@@ -235,7 +235,7 @@ background: linear-gradient(90deg, rgba(57,64,59,1) 52%, rgba(85,94,87,1) 100%);
 
 .bodycardsection {
   display: grid;
-  grid-template-columns:   1fr 1fr 1fr; 
+  grid-template-columns:  1fr 1fr 1fr 1fr; 
   grid-template-rows: 1fr;
 
 }
