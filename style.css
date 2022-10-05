@@ -344,3 +344,22 @@ background: linear-gradient(90deg, rgba(57,64,59,1) 52%, rgba(85,94,87,1) 100%);
   margin-bottom:1000px;
   background:#1CD8D2
 }
+
+.contactme-class {
+  border-radius: 5px;
+  background-color: #383131;
+  padding: 20px;
+  text-decoration-color: azure;
+ .contactme-class{
+  background-color: whitesmoke;
+  background-image: linear-gradient(to right, white 0%, grey 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+    }
