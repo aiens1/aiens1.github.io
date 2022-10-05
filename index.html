@@ -88,11 +88,44 @@
       <h1>>>>>>>>>About Me section still working on<<<<<<<<</h1>
       <p</p>
   </div>
-<div class="contactme-body" id="Contact-me">
+<div class="contactme-class" id="Contact-me">
         <h1>>>>>>>>>Contact me section still working on<<<<<</h1>
-</div>
-</div> 
+        <div class="col-md-6 border-left py-3">
+          <h1>Contact me</h1>
+          <div class="form-group">
+            <h5 for="name">Name</h5>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter name"
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="email">Email</h5>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="message">Message</h5>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+        </div>
 
- <script src="app.js"></script>   
+</div>
+
+<script src="app.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init('v5BG0i4CZQISQq3oZ');
+    })();
+</script>
 </body>
 </html>
