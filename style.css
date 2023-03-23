@@ -397,3 +397,11 @@ footer a {
 footer a:hover {
   color: #0077B5;
 }
+footer .row{
+  display: flex;
+}
+.LinkedInIcon, .MediumIcon .row {
+  margin: 0 10px; /* add some space between the icons */
+  display: flex;
+  justify-content: left;
+}
