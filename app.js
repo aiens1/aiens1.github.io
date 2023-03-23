@@ -35,4 +35,6 @@ function sendMail() {
   document.getElementById("linkedin-icon").addEventListener("click", function() {
     window.open("https://www.linkedin.com/in/irfan-nur-priya-nugraha-0269bb1b7/", "_blank");
   });
-  
+  document.getElementById("medium-icon").addEventListener("click", function() {
+    window.open("https://medium.com/@qzvskhynr", "_blank");
+  });
