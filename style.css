@@ -194,7 +194,7 @@ header {
     justify-content: center;
     align-items: center;
     padding:90px;
-    margin-top:2cm;
+    margin-top:-4cm;
   
     
   }
@@ -311,7 +311,7 @@ header {
       grid-template-columns: 1fr;
     }
     .projectPageSection{
-      margin-top:12cm;
+      margin-top:13cm;
     }
   }
   /*Contact-me*/
