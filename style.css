@@ -19,7 +19,7 @@ header {
   .logo {
     width: 75px;
     height: 75px;
-    background: url("images/logo.PNG") no-repeat;
+    background: url("logo.PNG") no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 10px;
@@ -111,7 +111,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     height: 90vh;
-    background: url("theart.png") no-repeat right center / 50% auto;
+    background: url("theart.PNG") no-repeat right center / 50% auto;
     margin-bottom: 0 px;
   }
   
